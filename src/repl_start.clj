@@ -1,8 +1,5 @@
 (ns repl_start
-  (:require
-   [tools.capability-category.cap-cat :as cc]
-   [clojure.java.shell :as sh]
-   ))
+  )
 
 ;; This is the main function that will get called when you start using:
 ;; lein run
@@ -11,14 +8,11 @@
 ;; is the startup function for us.
 ;;
 (defn -main []
-  ;;(prn (sh/sh "ls" "-aul" "CAPCAT"))
-  ;;(prn "PWD:" (sh/sh "pwd"))
-  ;; Start a simple terminal based UI
-  (cc/terminal-ui))
+)
 
 
-  (comment
+(comment
   (-main)
-  
+
   ;;
   )
