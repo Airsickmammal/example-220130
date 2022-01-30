@@ -2,7 +2,10 @@
 
 Example to show how to edit the schedule of a standard dynamic-term-equal-installment loan to be the same as a dynamic-term-balloon one.
 
+
+
 See [src/http/api/mambu/examples/edit_schedule.clj](https://github.com/MkershMambu/example-220130/blob/main/src/http/api/mambu/examples/edit_schedule.clj)
+* NOTE: To get this library to run on your own Mambu tenant search for "[CONFIG]" in this file and make appropriate changes 
 
 Goto Comments section. Execute the following steps from a REPL
 * [1] - Creates a New Loan
