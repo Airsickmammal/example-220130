@@ -236,7 +236,7 @@
   (ext/zap-all-loans2 @CUSTKEY)
 
   ;; [1] Create a new Loan account - then jump to [2] below to convert into a bullet loan
-  (create-new-loan "New Simulated Bullet Loan22")
+  (create-new-loan "New Simulated Bullet Loan33")
 
   ;; [1b] (optional) Create an account using the product template we use in [3] below
   ;; NOTE: Don't need to do this but allows you to check that the simulated bullet loan is the same
